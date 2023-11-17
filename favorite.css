@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#favorites-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.rounded-ended {
+  object-fit:cover ;
+}
